@@ -34,7 +34,7 @@
       await fetch("https://ip.navdeep.online/api/store-ip", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ip, site: "${site.name}" })
+        body: JSON.stringify({ ip, site: "IP-Storage" })
       });
     }
     run();
